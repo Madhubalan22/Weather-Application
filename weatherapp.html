@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>weatherapp</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+    crossorigin=""/>
+    <link rel="stylesheet" href="weatherapp.css">
+</head>
+<body>
+    <div class="container">
+        <div id="locationName" style="font-weight: bolder;">Bangalore</div>
+        <div id="icon"></div>
+        <div id="description">Cloud</div>
+        <div id="temp">28<sup>o</sup>c</div>
+        <div id="subTemp">
+            <span id="minTemp">Min-Temp : 26<sup>o</sup>c</span>
+            <span id="maxTemp" style="margin-left: 10px;">Max-Temp : 30<sup>o</sup>c</span>
+        </div>
+        <div id="windSpeed" style="font-size: 20px;">WindSpeed : 5</div>
+    </div>
+    <div id="map"></div>
+    <script src="script.js"> </script>
+         <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+     integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+     crossorigin=""></script>
+
+   
+</body>
+</html>
